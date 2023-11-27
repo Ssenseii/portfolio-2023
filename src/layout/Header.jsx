@@ -3,9 +3,8 @@ import React, { useState, useEffect } from "react";
 import {
     iconCV,
     iconTheme,
-    iconMail,
-    iconGithub,
-    iconBackToTop
+    iconBackToTop,
+    iconLinkedIn
 } from "../constants/Constants";
 
 import CV from "../assets/downloadable/CV Frontend - EN  - Aboussabr Saad (November 2023).pdf"
@@ -43,24 +42,18 @@ const Header = () => {
     return (
         <header id="header" className="header">
             <button title="Resumé - CV" className="header__action">
-                <a
-                    href={CV}
-                    download
-                >
+                <a href={CV} download>
                     {iconCV}
                 </a>
             </button>
-            <button title="Github" className="header__action">
+            <button title="LinkedIn" className="header__action">
                 <a
-                    href="https://github.com/ssenseii"
+                    href="https://www.linkedin.com/in/simonreinhardt/"
                     target="_blank"
                     rel="noreferrer"
                 >
-                    {iconGithub}
+                    {iconLinkedIn}
                 </a>
-            </button>
-            <button title="Email" className="header__action">
-                <a href="mailto: saadabou.study@gmail.com">{iconMail}</a>
             </button>
             <button
                 title="Scroll Back To Top"
