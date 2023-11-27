@@ -2,7 +2,7 @@ import React from "react";
 import Title from "../../components/Title";
 import Website from "../../components/Website";
 
-import { vScrollBehaviour, web16 } from "../../constants/Constants";
+import { vScrollBehaviour } from "../../constants/Constants";
 
 const Post4 = () => {
     return (
@@ -13,7 +13,12 @@ const Post4 = () => {
                 with typescript for fun to host the illustrations that I made
                 all throughout 2023.
             </p>
-            <Website src={web16} caption= "Simon's 2023 Gallery"></Website>
+            <Website
+                src={
+                    "https://g-host-iiiing.sirv.com/portfolio/webpages/web16.png"
+                }
+                caption="Simon's 2023 Gallery"
+            ></Website>
             <p>
                 It is responsive obviously. On desktop, it works by clicking and
                 dragging to the left and right, with damping enabled for smooth

@@ -5,18 +5,6 @@ import Title from "../../components/Title";
 import Image from "../../components/Image";
 import Website from "../../components/Website";
 
-import {
-    web12,
-    lpl_1,
-    lpl_2,
-    lpl_3,
-    lpl_4,
-    lpl_5,
-    lpl_6,
-    lpl_7,
-    lpl_8,
-} from "../../constants/Constants";
-
 const Post1 = () => {
     return (
         <div id="post1" className="text-box">
@@ -28,7 +16,9 @@ const Post1 = () => {
             </p>
 
             <Website
-                src={web12}
+                src={
+                    "https://g-host-iiiing.sirv.com/portfolio/webpages/web12.png"
+                }
                 caption={"Low Poly Laboratory - Alpha Release"}
             ></Website>
 
@@ -50,7 +40,10 @@ const Post1 = () => {
                 the kind of direction I wanted:
             </p>
 
-            <Image src={lpl_1} caption={"My First Sketches"}></Image>
+            <Image
+                src={"https://g-host-iiiing.sirv.com/portfolio/lpl-1.png"}
+                caption={"My First Sketches"}
+            ></Image>
 
             <p>
                 Then, I started prototyping on <span>Figma</span> where I set my
@@ -72,7 +65,10 @@ const Post1 = () => {
                 boxes format.
             </p>
 
-            <Image src={lpl_2} caption={"LoFi Design"}></Image>
+            <Image
+                src={"https://g-host-iiiing.sirv.com/portfolio/lpl-2.png"}
+                caption={"LoFi Design"}
+            ></Image>
 
             <p>
                 The Low Fidelity design translated well into my{" "}
@@ -82,7 +78,10 @@ const Post1 = () => {
                 to add more features later.
             </p>
 
-            <Image src={lpl_3} caption={"HiFi Design"}></Image>
+            <Image
+                src={"https://g-host-iiiing.sirv.com/portfolio/lpl-3.png"}
+                caption={"HiFi Design"}
+            ></Image>
 
             <p>
                 Then I got to work on the prototype which used dat.gui to
@@ -129,15 +128,24 @@ const Post1 = () => {
                 Here are some of the things you can make in Low Poly laboratory:
             </p>
 
-            <Image src={lpl_4} caption={"Perfume Bottle"}></Image>
-            <Image src={lpl_5} caption={"Low Triangle Ocean"}></Image>
             <Image
-                src={lpl_6}
+                src={"https://g-host-iiiing.sirv.com/portfolio/lpl-4.png"}
+                caption={"Perfume Bottle"}
+            ></Image>
+            <Image
+                src={"https://g-host-iiiing.sirv.com/portfolio/lpl-5.png"}
+                caption={"Low Triangle Ocean"}
+            ></Image>
+            <Image
+                src={"https://g-host-iiiing.sirv.com/portfolio/lpl-6.png"}
                 caption={"Reflective Lollipop with Bubblegum Core"}
             ></Image>
-            <Image src={lpl_7} caption={"Glassified Donut"}></Image>
             <Image
-                src={lpl_8}
+                src={"https://g-host-iiiing.sirv.com/portfolio/lpl-7.png"}
+                caption={"Glassified Donut"}
+            ></Image>
+            <Image
+                src={"https://g-host-iiiing.sirv.com/portfolio/lpl-8.png"}
                 caption={"Oh it's just a... PERRY THE PLATYPUS !!!"}
             ></Image>
 

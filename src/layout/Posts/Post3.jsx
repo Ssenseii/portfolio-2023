@@ -5,7 +5,6 @@ import Title from "../../components/Title";
 import Image from "../../components/Image";
 import Website from "../../components/Website";
 
-import { smn_1, smn_2, web22, web30, web31 } from "../../constants/Constants";
 
 const Post3 = () => {
     return (
@@ -22,12 +21,15 @@ const Post3 = () => {
                 many <span>accessibility</span> options.
             </p>
 
-            <Image src={smn_1} caption={"My Notes Folder"}></Image>
+            <Image
+                src={"https://g-host-iiiing.sirv.com/portfolio/smn-1.png"}
+                caption={"My Notes Folder"}
+            ></Image>
 
             <p>These are the first concept sketches</p>
 
             <Image
-                src={smn_2}
+                src={"https://g-host-iiiing.sirv.com/portfolio/smn-2.png"}
                 caption={"Simon's Notes - Conception Sketches"}
             ></Image>
 
@@ -42,10 +44,26 @@ const Post3 = () => {
             ></iframe>
             <figcaption>FigJam File</figcaption>
 
-            <Website src={web31} caption={"Mobile Design - Light Theme"}></Website>
-            <Website src={web30} caption={"Mobile Design - Dark Theme"}></Website>
-            <Website src={web22} caption={"Desktop Design"}></Website>
-            
+            <Website
+                src={
+                    "https://g-host-iiiing.sirv.com/portfolio/webpages/web22.png"
+                }
+                caption={"Desktop Design"}
+            ></Website>
+
+            <Website
+                src={
+                    "https://g-host-iiiing.sirv.com/portfolio/webpages/web31.png"
+                }
+                caption={"Mobile Design - Light Theme"}
+            ></Website>
+            <Website
+                src={
+                    "https://g-host-iiiing.sirv.com/portfolio/webpages/web30.png"
+                }
+                caption={"Mobile Design - Dark Theme"}
+            ></Website>
+
             <p>
                 The main thing I learned while making Simon"s Notes is that{" "}
                 <span> the users don't care what techniques you use</span> to

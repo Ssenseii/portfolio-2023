@@ -3,38 +3,7 @@ import React from "react";
 import Title from "../../components/Title";
 import Website from "../../components/Website";
 
-import {
-    web1,
-    web2,
-    web3,
-    web4,
-    web5,
-    web6,
-    web7,
-    web8,
-    web9,
-    web10,
-    web11,
-
-    web14,
-    web15,
-
-    web18,
-    web19,
-
-    web21,
-
-    web23,
-    web24,
-    web25,
-    web26,
-    web27,
-    web28,
-    web29,
-
-    /// icons
-    iconLeaf,
-} from "../../constants/Constants";
+import { iconLeaf } from "../../constants/Constants";
 
 const Post5 = () => {
     return (
@@ -56,20 +25,40 @@ const Post5 = () => {
                 {iconLeaf}
                 <h3>DanDaDan</h3>
             </div>
-            <Website src={web4} caption={"DanDaDan - Slide"} />
+            <Website
+                src={
+                    "https://g-host-iiiing.sirv.com/portfolio/webpages/web4.png"
+                }
+                caption={"DanDaDan - Slide"}
+            />
 
             <div className="text-box_display">
                 {iconLeaf}
                 <h3>Dravida - Art E-Store</h3>
             </div>
-            <Website src={web5} caption={"Dravida - Landing Page"} />
+            <Website
+                src={
+                    "https://g-host-iiiing.sirv.com/portfolio/webpages/web5.png"
+                }
+                caption={"Dravida - Landing Page"}
+            />
 
             <div className="text-box_display">
                 {iconLeaf}
                 <h3>HI-Success - Study Abroad Agency</h3>
             </div>
-            <Website src={web6} caption={"Hi-Success - 2021 Design"} />
-            <Website src={web7} caption={"Hi-Success - 2022 Re-Design"} />
+            <Website
+                src={
+                    "https://g-host-iiiing.sirv.com/portfolio/webpages/web6.png"
+                }
+                caption={"Hi-Success - 2021 Design"}
+            />
+            <Website
+                src={
+                    "https://g-host-iiiing.sirv.com/portfolio/webpages/web7.png"
+                }
+                caption={"Hi-Success - 2022 Re-Design"}
+            />
 
             <div className="text-box_display">
                 {iconLeaf}
@@ -81,25 +70,44 @@ const Post5 = () => {
                     Ibit- Puzzle Game
                 </a>
             </div>
-            <Website src={web8} caption={"Ibit - Slide #1: Journal Article"} />
             <Website
-                src={web26}
+                src={
+                    "https://g-host-iiiing.sirv.com/portfolio/webpages/web8.png"
+                }
+                caption={"Ibit - Slide #1: Journal Article"}
+            />
+            <Website
+                src={
+                    "https://g-host-iiiing.sirv.com/portfolio/webpages/web26.png"
+                }
                 caption={"Ibit - Slide #4: Phone Conversation"}
             />
-            <Website src={web27} caption={"Ibit - Slide #6: Choices Tree"} />
+            <Website
+                src={
+                    "https://g-host-iiiing.sirv.com/portfolio/webpages/web27.png"
+                }
+                caption={"Ibit - Slide #6: Choices Tree"}
+            />
 
             <div className="text-box_display">
                 {iconLeaf}
                 <h3>Inktober 2023</h3>
             </div>
-            <Website src={web9} caption={"Inktober 2023 - Landing Page"} />
+            <Website
+                src={
+                    "https://g-host-iiiing.sirv.com/portfolio/webpages/web9.png"
+                }
+                caption={"Inktober 2023 - Landing Page"}
+            />
 
             <div className="text-box_display">
                 {iconLeaf}
                 <h3>Instagram x Microsoft Fluent Design System</h3>
             </div>
             <Website
-                src={web10}
+                src={
+                    "https://g-host-iiiing.sirv.com/portfolio/webpages/web10.png"
+                }
                 caption={
                     "Recreation of Instagram using Microsoft's Design System"
                 }
@@ -116,7 +124,9 @@ const Post5 = () => {
                 </a>
             </div>
             <Website
-                src={web14}
+                src={
+                    "https://g-host-iiiing.sirv.com/portfolio/webpages/web14.png"
+                }
                 caption={
                     "Keep track of your 'Deep Rock Galactic' obtained overclocks"
                 }
@@ -133,7 +143,9 @@ const Post5 = () => {
                 </a>
             </div>
             <Website
-                src={web15}
+                src={
+                    "https://g-host-iiiing.sirv.com/portfolio/webpages/web15.png"
+                }
                 caption={
                     "Website made entirely with pixel-art, live on vercel, with firebase Auth and storage"
                 }
@@ -149,13 +161,22 @@ const Post5 = () => {
                     Simon's Lab
                 </a>
             </div>
-            <Website src={web18} caption={"Simon's Lab - Landing Page"} />
             <Website
-                src={web19}
+                src={
+                    "https://g-host-iiiing.sirv.com/portfolio/webpages/web18.png"
+                }
+                caption={"Simon's Lab - Landing Page"}
+            />
+            <Website
+                src={
+                    "https://g-host-iiiing.sirv.com/portfolio/webpages/web19.png"
+                }
                 caption={"Simon's Lab - Dynamic Color Scheme"}
             />
             <Website
-                src={web21}
+                src={
+                    "https://g-host-iiiing.sirv.com/portfolio/webpages/web21.png"
+                }
                 caption={"Simon's Lab - Project Info Screen"}
             />
 
@@ -163,10 +184,22 @@ const Post5 = () => {
                 {iconLeaf}
                 <h3>Tsuki - Note Taking App</h3>
             </div>
-            <Website src={web24} caption={"Tsuki - Landing Page"} />
-            <Website src={web23} caption={"Tsuki - Editor"} />
             <Website
-                src={web25}
+                src={
+                    "https://g-host-iiiing.sirv.com/portfolio/webpages/web24.png"
+                }
+                caption={"Tsuki - Landing Page"}
+            />
+            <Website
+                src={
+                    "https://g-host-iiiing.sirv.com/portfolio/webpages/web23.png"
+                }
+                caption={"Tsuki - Editor"}
+            />
+            <Website
+                src={
+                    "https://g-host-iiiing.sirv.com/portfolio/webpages/web25.png"
+                }
                 caption={"Tsuki - Neumorphism + Dynamic Color"}
             />
 
@@ -174,17 +207,47 @@ const Post5 = () => {
                 {iconLeaf}
                 <h3>Simon's Gallery</h3>
             </div>
-            <Website src={web28} caption={"Simon's Gallery - Landing Page"} />
-            <Website src={web29} caption={"Simon's Gallery - Bottom Page"} />
+            <Website
+                src={
+                    "https://g-host-iiiing.sirv.com/portfolio/webpages/web28.png"
+                }
+                caption={"Simon's Gallery - Landing Page"}
+            />
+            <Website
+                src={
+                    "https://g-host-iiiing.sirv.com/portfolio/webpages/web29.png"
+                }
+                caption={"Simon's Gallery - Bottom Page"}
+            />
 
             <div className="text-box_display">
                 {iconLeaf}
                 <h3>Random Ones</h3>
             </div>
-            <Website src={web1} caption={"Achraf Kine - Main Page"} />
-            <Website src={web2} caption={"Achraf Kine - About Page"} />
-            <Website src={web3} caption={"Achraf Kine - Contact Page"} />
-            <Website src={web11} caption={"Lapin Mockup - Sign In & Sign Up"} />
+            <Website
+                src={
+                    "https://g-host-iiiing.sirv.com/portfolio/webpages/web1.png"
+                }
+                caption={"Achraf Kine - Main Page"}
+            />
+            <Website
+                src={
+                    "https://g-host-iiiing.sirv.com/portfolio/webpages/web2.png"
+                }
+                caption={"Achraf Kine - About Page"}
+            />
+            <Website
+                src={
+                    "https://g-host-iiiing.sirv.com/portfolio/webpages/web3.png"
+                }
+                caption={"Achraf Kine - Contact Page"}
+            />
+            <Website
+                src={
+                    "https://g-host-iiiing.sirv.com/portfolio/webpages/web3.png"
+                }
+                caption={"Lapin Mockup - Sign In & Sign Up"}
+            />
         </div>
     );
 };

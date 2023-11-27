@@ -3,7 +3,7 @@
 import React from "react";
 import Title from "../../components/Title";
 
-import { dbr_1, dbr_2, dbr_3, dbr_4, art_0 } from "../../constants/Constants";
+// import { dbr_1, dbr_2, dbr_3, dbr_4, art_0 } from "../../constants/Constants";
 import Image from "../../components/Image";
 
 const Post6 = () => {
@@ -23,10 +23,22 @@ const Post6 = () => {
                 Store
             </p>
 
-            <Image src={dbr_1} caption={"Problem"}></Image>
-            <Image src={dbr_2} caption={"Data"}></Image>
-            <Image src={dbr_3} caption={"End Points"}></Image>
-            <Image src={dbr_4} caption={"UML Diagram"}></Image>
+            <Image
+                src={"https://g-host-iiiing.sirv.com/portfolio/dbr-1.png"}
+                caption={"Problem"}
+            ></Image>
+            <Image
+                src={"https://g-host-iiiing.sirv.com/portfolio/dbr-2.png"}
+                caption={"Data"}
+            ></Image>
+            <Image
+                src={"https://g-host-iiiing.sirv.com/portfolio/dbr-3.png"}
+                caption={"End Points"}
+            ></Image>
+            <Image
+                src={"https://g-host-iiiing.sirv.com/portfolio/dbr-4.png"}
+                caption={"UML Diagram"}
+            ></Image>
 
             <p>
                 you can find most of my programming exercices either on{" "}
@@ -54,7 +66,10 @@ const Post6 = () => {
                 to employers:
             </p>
 
-            <Image src={art_0} caption={"Make Art."}></Image>
+            <Image
+                src={"https://g-host-iiiing.sirv.com/portfolio/art.jpg"}
+                caption={"Make Art."}
+            ></Image>
         </div>
     );
 };

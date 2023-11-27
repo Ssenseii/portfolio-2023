@@ -5,7 +5,6 @@ import Title from "../../components/Title";
 import Website from "../../components/Website";
 import Image from "../../components/Image";
 
-import { web13, web17, mkd_1, mkd_2, mkd_3} from "../../constants/Constants";
 
 const Post2 = () => {
     return (
@@ -16,17 +15,28 @@ const Post2 = () => {
                 with typescript and then compiled into javascript.
             </p>
 
-            <Website src={web13} caption="Simon's Editor"></Website>
+            <Website
+                src={
+                    "https://g-host-iiiing.sirv.com/portfolio/webpages/web13.png"
+                }
+                caption="Simon's Editor"
+            ></Website>
 
             <p>You write your tags + text in the green box</p>
-            <Image src={mkd_1} caption={"Glassmorphic Editor Screen"}></Image>
+            <Image
+                src={"https://g-host-iiiing.sirv.com/portfolio/mkd-1.png"}
+                caption={"Glassmorphic Editor Screen"}
+            ></Image>
 
             <p>
                 And receive your finished HTML result to be copied using the
                 "Copy to Clipboard" Button
             </p>
 
-            <Image src={mkd_2} caption={"Preview Screen (With Styles)"}></Image>
+            <Image
+                src={"https://g-host-iiiing.sirv.com/portfolio/mkd-2.png"}
+                caption={"Preview Screen (With Styles)"}
+            ></Image>
 
             <p>
                 This prototype works by parsing each line and changing it from
@@ -47,7 +57,10 @@ const Post2 = () => {
                 page on how to modify it
             </p>
 
-            <Image src={mkd_3} caption={"ReadMe Page - FAQ Section"}></Image>
+            <Image
+                src={"https://g-host-iiiing.sirv.com/portfolio/mkd-3.png"}
+                caption={"ReadMe Page - FAQ Section"}
+            ></Image>
 
             <p>
                 The <span>script.ts </span>
@@ -82,8 +95,13 @@ const Post2 = () => {
             >
                 DEMO
             </a>
-            
-            <Website src={web17} caption="Use Case - Simon's Docs"></Website>
+
+            <Website
+                src={
+                    "https://g-host-iiiing.sirv.com/portfolio/webpages/web17.png"
+                }
+                caption="Use Case - Simon's Docs"
+            ></Website>
 
             <p>
                 I learned a lot of <span>typescript</span> concepts while
