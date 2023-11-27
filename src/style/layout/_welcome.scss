@@ -1,0 +1,112 @@
+/// Mobile interface
+
+.welcome {
+    height: 100vh;
+
+    background-image: url("../../assets/images/bg-mobile.png");
+    background-position: 50% 10%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    overflow: hidden;
+
+    &-wrapper {
+        margin-top: 16vh;
+        width: 100%;
+        padding-inline: 2rem;
+    }
+
+    &_year {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-end;
+
+        svg {
+            width: 1rem;
+            height: 1rem;
+            margin-right: 0.5rem;
+            stroke: var(--accent);
+        }
+
+        p {
+            font-size: 12px;
+        }
+    }
+
+    &_title {
+        h1 {
+            text-align: end;
+            font-size: 48px;
+            font-weight: 500;
+        }
+    }
+
+    &_author {
+        p {
+            font-size: 12px;
+            text-align: end;
+
+            span {
+                color: var(--accent);
+            }
+        }
+    }
+
+}
+
+
+/// tablets
+
+
+@media screen and (min-width: 768px) {
+    .welcome {
+        background-image: url("../../assets/images/bg-tablet.png");
+        background-position: 100%;
+
+        display: grid;
+        place-items: center;
+
+        &-wrapper {
+            margin-top: 0;
+            width: auto;
+            padding-inline: 0;
+        }
+
+        &_year{
+            justify-content: flex-start;
+        }
+    }
+}
+
+
+/// Desktop
+
+@media screen and (min-width: 1024px) {
+    .welcome {
+        height: fit-content;
+        background-image: none;
+
+        display: grid;
+        place-items: center;
+
+        padding-block: 5vh;
+        
+
+        &-wrapper {
+            margin-top: 0;
+            width: auto;
+            padding-inline: 0;
+        }
+
+        &_year{
+            justify-content: flex-start;
+        }
+
+        &_title{
+            h1{
+                font-size: 96px;
+            }
+        }
+    }
+}

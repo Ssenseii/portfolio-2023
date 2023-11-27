@@ -1,0 +1,45 @@
+.header {
+    position: fixed;
+    width: 100%;
+    height: 4rem;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+
+    background: transparent;
+
+    padding-inline: 1rem;
+    z-index: 1000;
+    transition: top 0.2s ease-in-out;
+
+    &__action {
+
+        a {
+            width: 24px;
+            fill: var(--accent);
+            color: var(--accent);
+        }
+
+        width: 24px;
+        height: 24px;
+        margin-right: 1rem;
+        display: grid;
+        place-items: center;
+
+        background-color: transparent;
+        border: none;
+
+        cursor: pointer;
+
+        transition: transform 200ms ease-out;
+
+        fill: var(--accent);
+        color: var(--accent);
+
+        &:hover {
+            transform: translateY(-2px);
+        }
+    }
+}
