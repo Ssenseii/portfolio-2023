@@ -42,5 +42,10 @@ html {
     flex-direction: column;
     align-items: center;
     padding-inline: 25%;
+
+    background-image: url("../../assets/images/bg-desktop.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-y: -18rem ;
   }
 }

@@ -62,7 +62,7 @@
 @media screen and (min-width: 768px) {
     .welcome {
         background-image: url("../../assets/images/bg-tablet.png");
-        background-position: 100%;
+        background-size: contain;
 
         display: grid;
         place-items: center;
