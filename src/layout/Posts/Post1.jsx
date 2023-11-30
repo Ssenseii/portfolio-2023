@@ -102,7 +102,11 @@ const Post1 = () => {
                 Laboratory on Youtube.
             </p>
 
-            <a target="_blank" rel="noreferrer" href="youtube.com">
+            <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://www.youtube.com/playlist?list=PLevglSur-5uL46Ft1FrOlqHIrNVhLUgoW"
+            >
                 Youtube Link
             </a>
 

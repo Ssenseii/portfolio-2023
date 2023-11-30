@@ -11,7 +11,7 @@ const Post7 = () => {
                 If you want, you can follow my process behind creating a
                 responsive website in this{" "}
                 <a
-                    href="https://simons-notes.vercel.app/"
+                    href="https://simons-notes.vercel.app/post4"
                     target="blank"
                     rel="noreferrer"
                 >
