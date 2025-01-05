@@ -1,4 +1,4 @@
-# Simon's Portfolio - 2023
+# Simon's Portfolio - 2024
 
 Hello, My name is Aboussabr Saad, Welcome to my Design Portoflio .
 
@@ -13,4 +13,4 @@ Please enjoy !!
 
 Email: Saadabou.study@gmail.com
 
-LinkedIn: https://www.linkedin.com/in/simonreinhardt/
+LinkedIn: https://www.linkedin.com/in/saadaboussabr/
